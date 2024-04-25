@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.content a{
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content a:hover{
+    background-color: #0056b3;
+}
