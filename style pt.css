@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),url(images/g4.jpg));
+    background-position: center;
+    background-size: cover;
+}*/
+.container{
+width: 100%;
+height: calc(100vh);
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/g4.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 70px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+    transition: 400ms;
+}
+.card1{
+    background-image: url(images/thailand.jpg);
+}
+.card2{
+    background-image: url(images/greece.png);
+}
+.card3{
+    background-image: url(images/bali.jpg);
+}
+.card4{
+    background-image: url(images/portugal.jpg);
+}
+.card:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
