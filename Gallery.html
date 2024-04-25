@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style gallery.css">
+<style>
+    body{
+        font-family: 'open sans',sans-serif;
+    }
+    .content a{
+        display: inline-block;
+        font-family: 'open sans',sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #360172;
+        padding: 13px 0;
+        position: relative;
+        transition: 0.4s ease;
+        background-image: linear-gradient(270deg, #D69425 0%, #FFBA46 100%);
+    box-shadow: 6px 6px 25px 0px rgba(255, 188, 5, 0.384);
+    border-radius: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    }
+    div content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    div img{
+        width: 400px;
+        height: 300px;
+        border-radius: 13px;
+        box-shadow: 4px 7px 7px 0px #00000042;
+        cursor: pointer;
+        margin: 10px;
+        transition: 400ms;
+        align-items: center;
+    }
+    div img:hover {
+        filter: grayscale(1);
+        transform: scale(1.03);
+    }
+    h1{
+        margin-top: 20px;
+    }
+</style>
+<body bgcolor="#fff">
+    <div class="content">
+    <h1 align="center" >Gallery</h1>
+    <ul>
+    <h2><a href="popular trips.html">Popular Trips</a></h2>
+    <h2><a href="exclusive.html">Exclusive</a></h2>
+    </ul>
+    </div>
+    <div>
+    <img src="images/G1.jpg" width="400px" height="300px"></img>
+    <img src="images/g4.jpg" width="400px" height="300px"></img>
+    <img src="images/off3.jpg" width="500px" height="350px"></img>
+    <img src="images/gall1.png" width="300px" height="300px"></img>
+    <img src="images/gall2.jpg"></img>
+    <img src="images/gall3.jpg"></img>
+    <img src="images/gall7.jpg"></img>
+    <img src="images/gall5.jpg"></img>
+    <img src="images/gall6.jpg"></img>
+    <img src="images/gall4.jpg" width="300px" height="300px"></img>
+    </div>
+
+</body>
+</html>
